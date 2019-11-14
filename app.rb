@@ -7,4 +7,7 @@ class App < Sinatra::Base
 	end
 	#This tells Sinatra to render a file called index.erb inside of a directory called views. sintra automatically looks for a .erb files in a director/folder called views 
 	# this is a view and not a route
+	
+	get "/info" do 
+	  
 end
