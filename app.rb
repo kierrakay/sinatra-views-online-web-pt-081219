@@ -9,5 +9,7 @@ class App < Sinatra::Base
 	# this is a view and not a route
 	
 	get "/info" do 
-	  
+	 "Testing the info page"
 end
+#this is a route
+end 
